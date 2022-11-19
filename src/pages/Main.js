@@ -82,7 +82,7 @@ const Main = () => {
                       >
                         {value.ITEMCNTNTS}
                       </Card.Text>
-                      <Button variant="primary" onClick={() => navigate(`/counter/${value.UC_SEQ}`)}>자세히 보기</Button>
+                      <Button variant="primary" onClick={() => window.open(`${value.HOMEPAGE_URL}`)}>자세히 보기</Button>
                     </Card.Body>
                   </Card>
                 </Col>
