@@ -46,7 +46,7 @@ const Main = () => {
   return (
     <HeadLayout>
       <div>
-        <div>메인페이지</div>
+
         <Container>
           <Row>
             <Col>
